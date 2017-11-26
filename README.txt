@@ -9,7 +9,9 @@ This text file describes brief but precise and complete specification of project
 Your description start form next line and do not delete lines upto this point.
 ______________________________________________________________________________
 Owner ship discription : 
-README.txt - ±è¿µ±â
+README.txt - ±è¿µ±â (kimyoungi99)
+project_header.h - ÇÑÀ±Áø (holquew)
+main.c - (cofls)
 
 File discription :
 project_header.h
