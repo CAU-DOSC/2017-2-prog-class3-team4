@@ -10,9 +10,12 @@ Your description start form next line and do not delete lines upto this point.
 ______________________________________________________________________________
 Owner ship description : 
 README.txt - 김영기 (kimyoungi99)
-project_header.h - 한윤진 (holquew)
+project_header.h - 한윤진 (Yoonjin Han)
 main.c - (cofls)
-node_library - 강창훈
+node_library - 강창훈 (Kchanghun)
+node_function.c - 이상묵 (mukisang)
+
+
 
 File description :
 project_header.h
@@ -26,6 +29,8 @@ node_library.c
 
 node_function.c
 노드를 연산/출력 하는 함수들이 있는 파일
+
+
 
 
 function description :
