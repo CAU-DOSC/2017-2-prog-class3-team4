@@ -8,12 +8,13 @@ This text file describes brief but precise and complete specification of project
 - - -
 Your description start form next line and do not delete lines upto this point.
 ______________________________________________________________________________
-Owner ship discription : 
+Owner ship description : 
 README.txt - 김영기 (kimyoungi99)
 project_header.h - 한윤진 (holquew)
 main.c - (cofls)
+node_library - 강창훈
 
-File discription :
+File description :
 project_header.h
 프로그램에서 사용하는 header들과 Node 구조체에 대한 정의가 있는 header file
 
@@ -27,7 +28,7 @@ node_function.c
 노드를 연산/출력 하는 함수들이 있는 파일
 
 
-function discription :
+function description :
 LINK creat_node(int value)
 노드를 생성하는 함수
 
