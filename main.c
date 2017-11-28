@@ -13,6 +13,7 @@ int main(void){
 	LINK head =NULL;
 	LINK cur;
 	LINK first_node =NULL;
+	printf("Input values of node : ");
 	while(scanf("%d", &user_num)!=NULL){
 		cur=creat_node(user_num);
 		if(count ==0) first_node =cur;
@@ -24,7 +25,7 @@ int main(void){
 		count++;
 	}
 	num_node =node_count(first_node, head);
-	printf("Number of node: %d \n", num_node);
+	printf("Number of node : %d \n", num_node);
 	print_backword(first_node,head,num_node);
 	print_middle(first_node,head,num_node);
 	print_forword(first_node, head, num_node);
