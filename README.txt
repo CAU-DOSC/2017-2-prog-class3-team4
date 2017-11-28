@@ -12,7 +12,7 @@ Owner ship description :
 README.txt - ±è¿µ±â (kimyoungi99)
 project_header.h - ÇÑÀ±Áø (Yoonjin Han)
 main.c - (cofls)
-node_library - °­Ã¢ÈÆ (Kchanghun)
+node_library.c - °­Ã¢ÈÆ (Kchanghun)
 node_function.c - ÀÌ»ó¹¬ (mukisang)
 
 
