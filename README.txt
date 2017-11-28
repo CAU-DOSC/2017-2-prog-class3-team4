@@ -54,7 +54,3 @@ void print_forword(LINK first, LINK head, int num)
 
 void del_odd_element(LINK first, LINK head, int num)
 linked list들의 홀수번 node를 삭제하는 함수
-
-
-
-
