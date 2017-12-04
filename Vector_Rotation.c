@@ -8,4 +8,5 @@ char *Vector_rotation(char *str, int d, int n)
 		}
 		str[n - 1] = temp;
 	}
+	return *str;
 }
