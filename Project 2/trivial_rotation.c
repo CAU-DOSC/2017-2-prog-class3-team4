@@ -1,7 +1,7 @@
 #include "Project_Header.h"
 
 char *trivial_rotation(char *ary, int num, int d, int length) {
-	static char answer[30] = { 0 };
+	char* answer = (int*)malloc((sizeof(char))*length);
 	char temp = 0;
 	for (int i = 0; i < 30; i++)
 		answer[i] = ary[i];
