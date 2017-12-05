@@ -5,9 +5,10 @@ char *Reverse(char *ary, int d, int n) {
 	for (int i = 0; i < n; i++) {
 		str[i] = ary[i];
 	}
-	if (n >= 0)
+	int c=n-1;
+	if (d >= 0)
 	{
-		for (int a = 1; a <= n; a++)
+		for (int a = 1; a <= c; a++)
 		{
 			for (int b = 0; b < d - 1; b++)
 			{
@@ -19,7 +20,7 @@ char *Reverse(char *ary, int d, int n) {
 	}
 	else
 	{
-		for (int a = n; a<0; a++)
+		for (int a = c; a<0; a++)
 		{
 			for (int b = d-1; b>0; b--)
 			{
