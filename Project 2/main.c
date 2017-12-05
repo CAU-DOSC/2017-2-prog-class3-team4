@@ -1,4 +1,4 @@
-﻿#include "Project_Header.h"
+#include "Project_Header.h"
 
 int main(void) {
 	int num = 0, d = 0, length = 0, test = 0;
@@ -30,7 +30,7 @@ int main(void) {
 		T_reverse = endtime - starttime;
 
 		printf("STR Length   Rotate Distance   :   Trivial    Juggling   Reverse \n")
-		printf("%13d%19d:   %8d   %8d   %8d", length, d, T_trivial, T_jug, T_reverse);
+		printf("%13d%19d:   %8d   %8d   %8d\n", length, d, T_trivial, T_jug, T_reverse);
 	}
 	return 0;
 }
