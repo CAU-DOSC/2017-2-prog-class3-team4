@@ -24,10 +24,13 @@ int main(void) {
 		endtime = clock();
 		T_jug = endtime - starttime;
 
-		printf("STR Length   Rotate Distance   :   Trivial    Juggling\n")
-		printf("%13d%19d:   %8d   %8d", length, d, T_trivial, T_jug);
+		starttime = clock();
+		Reverse(array, n, length);
+		endtime = clock();
+		T_reverse = endtime - starttime;
+
+		printf("STR Length   Rotate Distance   :   Trivial    Juggling   Reverse \n")
+		printf("%13d%19d:   %8d   %8d   %8d", length, d, T_trivial, T_jug, T_reverse);
 	}
-	printf("answer : ");
-	puts(ans);
 	return 0;
 }

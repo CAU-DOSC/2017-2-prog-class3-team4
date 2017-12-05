@@ -1,6 +1,10 @@
 #include "Project_Header.h"
 
-char *Reverse(char *str, int d, int n) {
+char *Reverse(char *ary, int d, int n) {
+	char* str = (int*)malloc((sizeof(char))*n);
+	for (int i = 0; i < n; i++) {
+		str[i] = ary[i];
+	}
 
 	if (n >= 0)
 	{
@@ -26,7 +30,5 @@ char *Reverse(char *str, int d, int n) {
 			}
 		}
 	}
-	return 0;
+	return str;
 }
-
-
