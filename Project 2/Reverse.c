@@ -1,5 +1,6 @@
-#include<stdio.h>
-int *Reverse(int *str, int d, int n) {
+#include "Project_Header.h"
+
+char *Reverse(char *str, int d, int n) {
 
 	if (n >= 0)
 	{

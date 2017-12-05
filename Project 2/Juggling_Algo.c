@@ -1,4 +1,4 @@
-#include "Juggling_Algo.h"
+#include "Project_Header.h"
 
 /*
 	callee 함수 내에서 동적할당을 했으므로 caller함수에서 memory free를 꼭 해주시길 부탁드립니다.

@@ -6,6 +6,8 @@ Ownership description :
 README.txt 		±è¿µ±â(kimyoungi99)
 main.c			±è¿µ±â(kimyoungi99)
 trivial_rotation.c 	±è¿µ±â(kimyoungi99)
+Jugling_Algo.c		(holoquew)
+Reverse.c		ÀÌ»ó¹¬
 
 Function description :
 main : 
