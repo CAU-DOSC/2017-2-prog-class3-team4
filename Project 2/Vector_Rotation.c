@@ -1,8 +1,9 @@
 #include "Project_Header.h"
 char *Vector_rotation(char *ary, int d, int n)
 {
+	n-=1;
 	char temp;
-	char* str = (int*)malloc((sizeof(char))*n);
+	char* str = (char*)malloc((sizeof(char))*n);
 	for (int i = 0; i<n; i++){
 		*(str+i) = ary[i];
 	}
