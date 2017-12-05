@@ -1,7 +1,7 @@
 #include "Project_Header.h"
 
 char *Reverse(char *ary, int d, int n) {
-	char* str = (int*)malloc((sizeof(char))*n);
+	char* str = (char*)malloc((sizeof(char))*n);
 	for (int i = 0; i < n; i++) {
 		str[i] = ary[i];
 	}
