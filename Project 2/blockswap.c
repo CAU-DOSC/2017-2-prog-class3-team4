@@ -2,11 +2,11 @@
 void swapl(int arr[],int a_,int b_,int d);//astart, bstart
 void swapr(int arr[],int a_,int b_,int d);
 
-void swapl(int arr[], int a_,int b_.int d){
+void swapl(int arr[], int a_,int b_,int d){
 	for(int i=0;i<d;i++)
 	{
 		int temp=arr[a_+i];
-		arr[arr_+i]=arr[b_+i];
+		arr[a_+i]=arr[b_+i];
 		arr[b_+i]=temp;
 	}
 }
