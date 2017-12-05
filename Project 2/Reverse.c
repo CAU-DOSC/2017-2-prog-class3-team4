@@ -5,7 +5,6 @@ char *Reverse(char *ary, int d, int n) {
 	for (int i = 0; i < n; i++) {
 		str[i] = ary[i];
 	}
-
 	if (n >= 0)
 	{
 		for (int a = 1; a <= n; a++)
